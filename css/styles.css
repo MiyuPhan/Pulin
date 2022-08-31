@@ -1,0 +1,126 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family:  'League Spartan', serif;
+
+}
+/* margin: top right bottom left; */
+h1{
+  font-size: 5.625rem;  /* 16px = 100% = 1em , 90px=5.525em */
+  margin: 50px auto 0 auto;
+  font-family:  'League Spartan', cursive;
+  color: #803f15;
+  line-height: 2;
+}
+h2{
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #803f15;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family:  'Montserrat', sans-serif;
+  color: #803f15;
+  padding-top: 0px;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #803f15;
+  font-family:  'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #CD8557;
+}
+.top-container {
+  background-color: #FFFEEA;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #FFFCC1;
+  padding: 50px 0 20px;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #803f15;
+  font-size: 0.755rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:  'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.top-cloud{
+  position: absolute;
+  right: 80px;
+  top: 110px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 40px;
+  bottom: 300px;
+}
+.pudding{
+  margin-top: 40px;
+}
+.menu-row{
+  width: 50%;
+  margin: 100px auto 0px auto;
+  text-align: left;
+}
+.pulin-menu{
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
+.pulin02-menu{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
