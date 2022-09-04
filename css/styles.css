@@ -61,7 +61,7 @@ a:hover {
   width: 30%;
   margin: auto;
 }
-.order-message{
+.contact-message{
   width: 40%;
   margin: 40px auto 60px;
 }
@@ -98,29 +98,23 @@ a:hover {
 }
 .top-cloud{
   position: absolute;
-  right: 60px;
-  top: 60px;
-  width:20%;
+  right: 80px;
+  top: 110px;
 }
 .bottom-cloud{
   position: absolute;
   left: 40px;
   bottom: 300px;
-  width:20%;
 }
 .pudding{
   margin-top: 40px;
-  width:30%;
-}
-.profile-img{
-  width:20%;
 }
 .menu-row{
   width: 50%;
   margin: 100px auto 0px auto;
   text-align: left;
 }
-.pulin-menu-img{
+.pulin-menu{
   width: 20%;
   margin-right: 30px;
   float: left;
@@ -129,59 +123,4 @@ a:hover {
   width: 25%;
   float: right;
   margin-left: 30px;
-}
-@media only screen and (max-width: 600px) {
-  .top-cloud{
-    position: absolute;
-    right: 10px;
-    top: 30px;
-    width:30%;
-  }
-  .bottom-cloud{
-    position: absolute;
-    left: 10px;
-    bottom: 370px;
-    width:30%;
-  }
-  .pudding{
-    margin-top: 40px;
-    width:60%;
-  }
-  .top-container {
-    padding-top: 10px;
-    padding-bottom: : 10px;
-    height: 100%;
-  }
-
-  .profile-img{
-    width:40%;
-  }
-  .intro{
-    width: 70%;
-    margin: auto;
-  }
-  .menu-row{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-  }
-  .pulin-menu-img{
-    width: 50%;
-    margin: 0px;
-    float: none;
-  }
-  .order-message{
-    width: 70%;
-    margin: 40px auto 60px;
-  }
-
-  /* .profile h2{
-    font-size: 4rem;
-  }
-  .profile p{
-    font-size: 1.8rem;
-  } */
-  /* #menu h2{
-      font-size: 4rem;
-    } */
 }
